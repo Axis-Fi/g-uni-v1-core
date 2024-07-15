@@ -54,7 +54,7 @@ const config: HardhatUserConfig = {
     },
     mantleSepolia: {
       chainId: 5003,
-      url: process.env.MANTLE_SEPOLIA_RPC,
+      url: process.env.MANTLE_SEPOLIA_RPC || "https://rpc.sepolia.mantle.xyz",
       accounts: [process.env.DEPLOYER_PRIVATE_KEY ?? ""]
     }
   },
