@@ -145,16 +145,16 @@ Set up environment variables:
 1. Ensure that the `Gelato`, `GelatoDevMultiSig` and `UniswapV3Factory` addresses are set in `src/addresses.ts` for the target chain.
 1. Deploy the GUniPool, as that will serve as input to the GUniFactory:
 
-    ```shell
-    HARDHAT_NETWORK="<chain name>" yarn run deploy:pool
-    ```
+   ```shell
+   HARDHAT_NETWORK="<chain name>" yarn run deploy:pool
+   ```
 
 1. Copy the address of the GUniPool (output to the terminal) into the value of the `GUniImplementation` key in `src/addresses.ts` for the target chain.
 1. Deploy the GUniFactory:
 
-    ```shell
-    HARDHAT_NETWORK="<chain name>" yarn run deploy:factory
-    ```
+   ```shell
+   HARDHAT_NETWORK="<chain name>" yarn run deploy:factory
+   ```
 
 Note that these scripts will not deploy to a particular chain if there have been no changes to the contracts since the last deployment on that chain. To override this, pass the `--reset` flag.
 
@@ -162,10 +162,10 @@ Note that these scripts will not deploy to a particular chain if there have been
 
 1. Verify the contracts:
 
-    ```shell
-    HARDHAT_NETWORK="<chain name>" yarn run verify
-    ```
+   ```shell
+   HARDHAT_NETWORK="<chain name>" yarn run verify
+   ```
 
-    - If hardhat reports that a network is not supported, specify the API url using `--api-url <url>`
+   - If hardhat reports that a network is not supported, specify the API url using `--api-url <url>`
 
 NOTE: The GUniFactory contract will require additional steps to enable it to be viewed as a proxy.
