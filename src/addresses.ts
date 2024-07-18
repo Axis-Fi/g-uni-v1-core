@@ -84,8 +84,8 @@ export const getAddresses = (network: string): Addresses => {
         DAI: "",
         USDC: "",
         UniswapV3Factory: "0x1F98431c8aD98523631AE4a59f267346ea31F984",
-        GUniFactory: "",
-        GUniImplementation: "",
+        GUniFactory: "0x873966578C8ECcD61fc68F1Be3681146f86587e4",
+        GUniImplementation: "0x37886d0667c16f41F73F6586f087166Ae3CF1155",
       };
     case "arbitrumSepolia":
       return {
@@ -108,8 +108,8 @@ export const getAddresses = (network: string): Addresses => {
         DAI: "",
         USDC: "",
         UniswapV3Factory: "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
-        GUniFactory: "",
-        GUniImplementation: "",
+        GUniFactory: "0x5D7ddDFee9fB5709Ccdea49Acd51db3d73BC75Fa",
+        GUniImplementation: "0xE03E5bF70E04dB487bCa3A36beEFccd7b6be582F",
       };
     case "baseSepolia":
       return {
@@ -131,9 +131,9 @@ export const getAddresses = (network: string): Addresses => {
         WETH: "0x4300000000000000000000000000000000000004",
         DAI: "",
         USDC: "",
-        UniswapV3Factory: "0x792edAdE80af5fC680d96a2eD80A44247D2Cf6Fd",
-        GUniFactory: "",
-        GUniImplementation: "",
+        UniswapV3Factory: "0x71b08f13B3c3aF35aAdEb3949AFEb1ded1016127",
+        GUniFactory: "0xC11a71a304aB4c147e926342BA4CcCFd62d7368e",
+        GUniImplementation: "0xD33e5cC03ad1C8F73cc57053f8a749ac76F14988",
       };
     case "blastSepolia":
       return {
